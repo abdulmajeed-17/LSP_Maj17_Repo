@@ -13,7 +13,7 @@ public class WordCount {
     public static void main(String[] args) {
         
         Map<String, Integer> wordCounts = new HashMap<>();
-        String filePath = "words.txt";
+        String filePath = "src/org/howard/edu/lsp/assignment2/words.txt";
         String currentLine;
         
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
